@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <title>ลิงค์แชร์กิจกรรม</title>
+</head>
+<body>
+    <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
+    <script>
+        async function main() {
+                                         // Liff ID
+            await liff.init({ liffId: "1660714918-GmojjNvy" })
+            await liff.shareTargetPicker([
+                {
+                    type: "flex",
+                    // ข้อความก่อนกดอ่าน
+                    altText: ",มาแล้วจ้าโค้ดฟรี 50.-",
+                    contents: 
+                    // โค้ดจาก line bot designer
+                    {
+  "type": "bubble",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "image",
+        "url": "https://media.discordapp.net/attachments/1039108566214258798/1082673015076179998/2.jpg?width=930&height=930",
+        "size": "full",
+        "aspectRatio": "10.40:10.40"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ทำยอด 650 ถอนได้ 100",
+            "color": "#FFFF00",
+            "align": "center"
+          },
+          {
+            "type": "text",
+            "text": "รับได้ทุกวัน",
+            "color": "#FFFF00",
+            "align": "center"
+          }
+        ],
+        "offsetTop": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "รับโค้ดฟรี 50.-",
+            "color": "#ffffff",
+            "weight": "bold",
+            "align": "center"
+          }
+        ],
+        "backgroundColor": "#9966CC",
+        "cornerRadius": "md",
+        "borderWidth": "medium",
+        "paddingAll": "xs",
+        "offsetTop": "md"
+      }
+    ],
+    "backgroundColor": "#660099",
+    "cornerRadius": "md",
+    "paddingAll": "xl",
+    "action": {
+      "type": "uri",
+      "label": "action",
+      "uri": "http://www.whatslot168.com/"
+    }
+  }
+}
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+</html>
