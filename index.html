@@ -21,121 +21,153 @@
                       {
   "type": "bubble",
   "hero": {
+    "type": "image",
+    "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "http://linecorp.com/"
+    }
+  },
+  "body": {
     "type": "box",
     "layout": "vertical",
     "contents": [
       {
+        "type": "text",
+        "text": "Brown Cafe",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
         "type": "box",
-        "layout": "vertical",
+        "layout": "baseline",
+        "margin": "md",
         "contents": [
           {
-            "type": "image",
-            "url": "https://media.discordapp.net/attachments/1144395846796988597/1144395985854939186/02.jpeg?width=936&height=936",
-            "size": "full",
-            "aspectRatio": "10.40:10.40"
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png"
+          },
+          {
+            "type": "icon",
+            "size": "sm",
+            "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png"
+          },
+          {
+            "type": "text",
+            "text": "4.0",
+            "size": "sm",
+            "color": "#999999",
+            "margin": "md",
+            "flex": 0
           }
-        ],
-        "paddingAll": "md",
-        "cornerRadius": "md"
+        ]
       },
       {
         "type": "box",
         "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
         "contents": [
           {
             "type": "box",
-            "layout": "vertical",
+            "layout": "baseline",
+            "spacing": "sm",
             "contents": [
               {
                 "type": "text",
-                "text": "✨✨DRAGON888✨✨",
-                "align": "center",
-                "weight": "bold",
-                "color": "#fec418"
+                "text": "Place",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
               },
               {
                 "type": "text",
-                "text": "แจกเครดิตฟรีทุกวัน 50.-",
-                "align": "center",
-                "color": "#ffffff"
-              },
-              {
-                "type": "text",
-                "text": "ทำยอด 650 ถอนได้ 150",
-                "align": "center",
-                "color": "#ffffff"
-              },
-              {
-                "type": "text",
-                "text": "ฝากไม่รับโบนัสถอนได้ไม่อั้น(เมื่อฝาก 500 ขึ้นไป)",
-                "size": "xs",
-                "align": "center",
-                "color": "#ffffff"
+                "text": "Miraina Tower, 4-1-6 Shinjuku, Tokyo",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 5
               }
-            ],
-            "cornerRadius": "md",
-            "paddingAll": "md"
-          }
-        ],
-        "paddingAll": "md"
-      },
-      {
-        "type": "box",
-        "layout": "horizontal",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "button",
-                "action": {
-                  "type": "uri",
-                  "label": "รับเครดิตฟรี",
-                  "uri": "https://lin.ee/nYDWNHL"
-                }
-              }
-            ],
-            "background": {
-              "type": "linearGradient",
-              "angle": "0deg",
-              "startColor": "#ffe719",
-              "endColor": "#ffe719"
-            },
-            "cornerRadius": "xxl"
+            ]
           },
           {
             "type": "box",
-            "layout": "vertical",
+            "layout": "baseline",
+            "spacing": "sm",
             "contents": [
               {
-                "type": "button",
-                "action": {
-                  "type": "uri",
-                  "label": "แชร์ให้เพื่อน",
-                  "uri": "https://liff.line.me/2000523051-jm0e996A"
-                }
+                "type": "text",
+                "text": "Time",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "10:00 - 23:00",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 5
               }
-            ],
-            "background": {
-              "type": "linearGradient",
-              "angle": "0deg",
-              "startColor": "#89f904",
-              "endColor": "#89f904"
-            },
-            "cornerRadius": "xxl"
+            ]
           }
-        ],
-        "spacing": "md",
-        "paddingAll": "md"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "CALL",
+          "uri": "https://linecorp.com"
+        }
+      },
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "WEBSITE",
+          "uri": "https://linecorp.com"
+        }
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "sm"
       }
     ],
-    "background": {
-      "type": "linearGradient",
-      "angle": "0deg",
-      "startColor": "#000000",
-      "endColor": "#000000"
-    }
+    "flex": 0
   }
 }
                 }
